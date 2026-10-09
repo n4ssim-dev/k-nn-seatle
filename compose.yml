@@ -1,0 +1,7 @@
+services:
+  app:
+    image: n4ssim11/k-nn_seatle:latest
+    build: .
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
